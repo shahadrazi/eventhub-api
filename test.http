@@ -1,0 +1,10 @@
+POST http://localhost:3000/api/events
+Content-Type: application/json
+
+{
+  "title": "Tech Talk",
+  "description": "Session about AI",
+  "date": "2025-09-20",
+  "location": "Kalvium Campus",
+  "maxAttendees": 50
+}
